@@ -21,7 +21,7 @@ export const PROJECTS: Project[] = [
     id: 'url-shortener',
     num: '01',
     name: 'URL Shortener',
-    category: 'backend',
+    category: 'full stack',
     featured: true,
     description:
       'Full-stack link compression system — generates cryptographically unique short codes, handles redirects, and stores URL mappings via clean Spring Boot REST endpoints.',
@@ -33,7 +33,7 @@ export const PROJECTS: Project[] = [
     id: 'gitlytics',
     num: '02',
     name: 'Gitlytics Buddy',
-    category: 'fullstack',
+    category: 'frontend',
     featured: true,
     description:
       'GitHub analytics dashboard surfacing commit frequency, contributor rankings, and repository health insights by consuming the GitHub REST API with live data fetching.',
