@@ -18,8 +18,19 @@ export const TYPING_PHRASES: string[] = [
 
 export const PROJECTS: Project[] = [
   {
-    id: 'url-shortener',
+    id: 'Upi-Without-Internet',
     num: '01',
+    name: 'Upi Without Internet',
+    category: 'full stack',
+    description:
+      'Offline UPI payment system leveraging QR code generation and scanning — enables secure transactions without internet by encoding payment details in QR codes and processing them locally.',
+    stack: ['Java', 'Spring Boot', 'REST APIs','JUnit' ,'HTML', 'CSS'],
+    demo: null,
+    github: 'https://github.com/Mishra559/Upi-without-internet',
+  },
+  {
+    id: 'url-shortener',
+    num: '02',
     name: 'URL Shortener',
     category: 'full stack',
     featured: true,
@@ -31,7 +42,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'gitlytics',
-    num: '02',
+    num: '03',
     name: 'Gitlytics Buddy',
     category: 'frontend',
     featured: true,
@@ -43,15 +54,16 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'avhisafe',
-    num: '03',
+    num: '04',
     name: 'AvhiSafe Wallet',
-    category: 'backend',
+    category: 'frontend',
     description:
       'Web3 wallet key generator implementing cryptographic asymmetric key creation — explores blockchain fundamentals, wallet address derivation, and security-first design.',
     stack: ['JavaScript', 'Web3', 'Cryptography', 'HTML', 'CSS'],
     demo: null,
     github: 'https://github.com/Mishra559',
   },
+  
 ]
 
 export const SKILLS: SkillGroup[] = [
